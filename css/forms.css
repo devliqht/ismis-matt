@@ -1,0 +1,19 @@
+.student-parent-login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.student-parent-login-form .form-label {
+    font-family: "Quicksand", sans-serif;
+}
+
+.form-input[type="text"],
+.form-input[type="password"] {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 14px;
+}

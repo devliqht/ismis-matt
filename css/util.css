@@ -1,0 +1,79 @@
+.form-btn {
+    background-color: #ffffff5b;
+    color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    line-height: 1.25;
+    min-height: 1rem;
+    padding: 3px;
+    width: 100px;
+
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    vertical-align: baseline;
+
+    cursor: pointer;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.form-btn:hover {
+    transform: translateY(-1px);
+}
+
+.form-btn:active {
+    background-color: #f0f0f1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.form-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.padding {
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+.padding-sm {
+    padding: 10px;
+}
+.padding-md {
+    padding: 15px;
+}
+.padding-lg {
+    padding: 20px;
+}
+.padding-xlg {
+    padding: 30px;
+}
+.padding-xxlg {
+    padding: 40px;
+}
+.padding-xxxlg {
+    padding: 55px;
+}
+.center_content {
+    justify-content: center;
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 884px) /* Recommended width for phones. */ {
+    .header-wrapper {
+        flex-direction: column !important;
+    }
+    .page-wrapper {
+        height: 100%;
+    }
+    .login-form {
+        width: 100% !important;
+    }
+    .main-wrapper {
+        flex-direction: column !important;
+    }
+    .main-sidebar {
+        align-items: center;
+    }
+    .sidebar-section-wrapper {
+        width: 100%;
+    }
+    .header-wrapper > .school-details > .school-name {
+        font-family: "Lexend", sans-serif;
+        font-weight: 100;
+        text-align: center !important;
+    }
+
+    .header-wrapper > .school-details > .school-address {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 100;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 884px) {
+    .navbar-flex > .responsive_sidebar_icon {
+        display: none;
+    }
+
+    /* ------------------ */
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #181818;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 15px;
+    }
+    /* ------------------ */
+} /*
