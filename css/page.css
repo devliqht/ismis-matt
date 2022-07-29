@@ -9,7 +9,7 @@
 body {
     background-color: #ffffff;
     opacity: 0.8;
-    background-image: url("/assets/1.jpg");
+    background-image: url("../assets/1.jpg");
     background-size: cover;
     overflow-x: hidden;
 }
